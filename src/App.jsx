@@ -15,20 +15,20 @@ function Icon({ d, size = 18, className = "", fill = "none" }) {
 }
 
 const IC = {
-  home:     ["M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z", "M9 22V12h6v10"],
-  users:    ["M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2", "M9 7a4 4 0 100 8 4 4 0 000-8z", "M23 21v-2a4 4 0 00-3-3.87", "M16 3.13a4 4 0 010 7.75"],
+  home: ["M3 9l9-7 9 7v11a2 2 0 01-2 2H5a2 2 0 01-2-2z", "M9 22V12h6v10"],
+  users: ["M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2", "M9 7a4 4 0 100 8 4 4 0 000-8z", "M23 21v-2a4 4 0 00-3-3.87", "M16 3.13a4 4 0 010 7.75"],
   calendar: ["M8 2v4", "M16 2v4", "M3 10h18", "M21 8a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2h14a2 2 0 002-2z"],
-  plus:     ["M12 5v14", "M5 12h14"],
-  edit:     ["M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7", "M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"],
-  trash:    ["M3 6h18", "M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6", "M8 6V4a2 2 0 012-2h4a2 2 0 012 2v2"],
-  x:        ["M18 6L6 18", "M6 6l12 12"],
-  bell:     ["M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9", "M13.73 21a2 2 0 01-3.46 0"],
+  plus: ["M12 5v14", "M5 12h14"],
+  edit: ["M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7", "M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"],
+  trash: ["M3 6h18", "M19 6v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6", "M8 6V4a2 2 0 012-2h4a2 2 0 012 2v2"],
+  x: ["M18 6L6 18", "M6 6l12 12"],
+  bell: ["M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9", "M13.73 21a2 2 0 01-3.46 0"],
   settings: ["M12 15a3 3 0 100-6 3 3 0 000 6z", "M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-2 2 2 2 0 01-2-2v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83 0 2 2 0 010-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 01-2-2 2 2 0 012-2h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 010-2.83 2 2 0 012.83 0l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 012-2 2 2 0 012 2v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 0 2 2 0 010 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 012 2 2 2 0 01-2 2h-.09a1.65 1.65 0 00-1.51 1z"],
-  alert:    ["M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z", "M12 9v4", "M12 17h.01"],
-  clock:    ["M12 2a10 10 0 100 20A10 10 0 0012 2z", "M12 6v6l4 2"],
-  tag:      ["M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z", "M7 7h.01"],
-  phone:    "M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.5a19.79 19.79 0 01-3.07-8.6A2 2 0 012 .82h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8a16 16 0 006.09 6.09l.61-.61a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7a2 2 0 011.72 2.04z",
-  check:    "M20 6L9 17l-5-5",
+  alert: ["M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z", "M12 9v4", "M12 17h.01"],
+  clock: ["M12 2a10 10 0 100 20A10 10 0 0012 2z", "M12 6v6l4 2"],
+  tag: ["M20.59 13.41l-7.17 7.17a2 2 0 01-2.83 0L2 12V2h10l8.59 8.59a2 2 0 010 2.82z", "M7 7h.01"],
+  phone: "M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.5a19.79 19.79 0 01-3.07-8.6A2 2 0 012 .82h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 8a16 16 0 006.09 6.09l.61-.61a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7a2 2 0 011.72 2.04z",
+  check: "M20 6L9 17l-5-5",
 };
 
 // ─── Constants ───────────────────────────────────────────────────────────────
@@ -44,13 +44,13 @@ const EMPTY_FORM = {
 };
 
 const STATUS = {
-  New:        { bg: "bg-blue-50",    text: "text-blue-600",   dot: "bg-blue-400"   },
-  Interested: { bg: "bg-amber-50",   text: "text-amber-600",  dot: "bg-amber-400"  },
-  Closed:     { bg: "bg-green-50",   text: "text-green-600",  dot: "bg-green-500"  },
+  New: { bg: "bg-blue-50", text: "text-blue-600", dot: "bg-blue-400" },
+  Interested: { bg: "bg-amber-50", text: "text-amber-600", dot: "bg-amber-400" },
+  Closed: { bg: "bg-green-50", text: "text-green-600", dot: "bg-green-500" },
 };
 
 const PRIORITY_OVERDUE = { bg: "bg-red-50", text: "text-red-500", label: "Overdue" };
-const PRIORITY_TODAY   = { bg: "bg-blue-50", text: "text-blue-500", label: "Today" };
+const PRIORITY_TODAY = { bg: "bg-blue-50", text: "text-blue-500", label: "Today" };
 
 // ─── Avatar ──────────────────────────────────────────────────────────────────
 const AVATAR_COLORS = [
@@ -86,9 +86,9 @@ function StatusBadge({ status }) {
 function Sidebar({ activeNav, setActiveNav }) {
   const top = [
     { key: "dashboard", icon: IC.home },
-    { key: "leads",     icon: IC.users },
+    { key: "leads", icon: IC.users },
     { key: "followups", icon: IC.calendar },
-    { key: "calendar",  icon: IC.clock },
+    { key: "calendar", icon: IC.clock },
   ];
 
   return (
@@ -136,11 +136,10 @@ function StatCard({ label, value, sub, icon, active, onClick, warn }) {
   return (
     <button
       onClick={onClick}
-      className={`text-left p-5 rounded-2xl border transition-all duration-200 w-full ${
-        active
+      className={`text-left p-5 rounded-2xl border transition-all duration-200 w-full ${active
           ? "bg-emerald-600 border-emerald-600 shadow-lg shadow-emerald-200 scale-[1.02]"
           : "bg-white border-gray-100 hover:border-emerald-200 hover:shadow-md"
-      }`}
+        }`}
     >
       <div className="flex items-center justify-between mb-4">
         <div className={`w-8 h-8 rounded-xl flex items-center justify-center
@@ -153,9 +152,8 @@ function StatCard({ label, value, sub, icon, active, onClick, warn }) {
       </div>
       <p className={`text-xs font-medium mb-1 ${active ? "text-gray-400" : "text-gray-400"}`}>{label}</p>
       <p className={`text-3xl font-semibold tracking-tight ${active ? "text-white" : "text-gray-900"}`}>{value}</p>
-      <p className={`text-[11px] mt-1 ${
-        active ? "text-white/70" : "text-gray-400"
-      }`}>
+      <p className={`text-[11px] mt-1 ${active ? "text-white/70" : "text-gray-400"
+        }`}>
         {sub}
       </p>
     </button>
@@ -171,9 +169,9 @@ function PipelineChart({ leads }) {
   };
   const max = Math.max(...Object.values(counts), 1);
   const bars = [
-    { label: "New",        count: counts.New,        color: "#93c5fd" },
-    { label: "Interested", count: counts.Interested,  color: "#fcd34d" },
-    { label: "Closed",     count: counts.Closed,      color: "#6ee7b7" },
+    { label: "New", count: counts.New, color: "#93c5fd" },
+    { label: "Interested", count: counts.Interested, color: "#fcd34d" },
+    { label: "Closed", count: counts.Closed, color: "#6ee7b7" },
   ];
   const BAR_H = 80;
 
@@ -249,11 +247,10 @@ function LeadsTable({ leads, onEdit, onDelete, onStatusChange, snoozeFollowUp })
                   {lead.services || <span className="text-gray-300">—</span>}
                 </p>
                 <div className="flex items-center gap-2 mt-1">
-                  <span className={`text-[10px] px-2 py-0.5 rounded-full font-medium ${
-                    lead.priority === "High" ? "bg-red-50 text-red-500" :
-                    lead.priority === "Medium" ? "bg-yellow-50 text-yellow-600" :
-                    "bg-gray-100 text-gray-500"
-                  }`}>
+                  <span className={`text-[10px] px-2 py-0.5 rounded-full font-medium ${lead.priority === "High" ? "bg-red-50 text-red-500" :
+                      lead.priority === "Medium" ? "bg-yellow-50 text-yellow-600" :
+                        "bg-gray-100 text-gray-500"
+                    }`}>
                     {lead.priority || "Medium"}
                   </span>
                 </div>
@@ -392,13 +389,12 @@ function FollowUpsPanel({ leads }) {
                 </div>
               </div>
               <span
-                className={`text-[10px] px-2 py-0.5 rounded-full font-medium ${
-                  lead.priority === "High"
+                className={`text-[10px] px-2 py-0.5 rounded-full font-medium ${lead.priority === "High"
                     ? "bg-red-50 text-red-500"
                     : lead.priority === "Medium"
-                    ? "bg-yellow-50 text-yellow-600"
-                    : "bg-gray-100 text-gray-500"
-                }`}
+                      ? "bg-yellow-50 text-yellow-600"
+                      : "bg-gray-100 text-gray-500"
+                  }`}
               >
                 {lead.priority || "Medium"}
               </span>
@@ -571,9 +567,9 @@ function KanbanView({ leads, onEdit, onDelete, onStatusChange, snoozeFollowUp })
   };
 
   const COL_TOP = {
-    New:        "border-t-blue-300",
+    New: "border-t-blue-300",
     Interested: "border-t-amber-300",
-    Closed:     "border-t-green-400",
+    Closed: "border-t-green-400",
   };
 
   return (
@@ -640,11 +636,10 @@ function KanbanView({ leads, onEdit, onDelete, onStatusChange, snoozeFollowUp })
                       {lead.next_action || "No next action"}
                     </p>
                     <div className="flex items-center justify-between mb-2">
-                      <span className={`text-[10px] px-2 py-0.5 rounded-full font-medium ${
-                        lead.priority === "High" ? "bg-red-50 text-red-500" :
-                        lead.priority === "Medium" ? "bg-yellow-50 text-yellow-600" :
-                        "bg-gray-100 text-gray-500"
-                      }`}>
+                      <span className={`text-[10px] px-2 py-0.5 rounded-full font-medium ${lead.priority === "High" ? "bg-red-50 text-red-500" :
+                          lead.priority === "Medium" ? "bg-yellow-50 text-yellow-600" :
+                            "bg-gray-100 text-gray-500"
+                        }`}>
                         {lead.priority || "Medium"}
                       </span>
                     </div>
@@ -660,9 +655,8 @@ function KanbanView({ leads, onEdit, onDelete, onStatusChange, snoozeFollowUp })
                           <Icon d={isOverdue ? IC.alert : IC.clock} size={10} />
                           {lead.follow_up_date}
                         </div>
-                        <span className={`text-[10px] px-2 py-0.5 rounded-full font-medium ${
-                          isOverdue ? "bg-red-50 text-red-500" : "bg-blue-50 text-blue-500"
-                        }`}>
+                        <span className={`text-[10px] px-2 py-0.5 rounded-full font-medium ${isOverdue ? "bg-red-50 text-red-500" : "bg-blue-50 text-blue-500"
+                          }`}>
                           {isOverdue ? "Overdue" : "Upcoming"}
                         </span>
                       </div>
@@ -782,13 +776,12 @@ export default function App() {
                       <div
                         key={lead.id}
                         onClick={() => onEdit(lead)}
-                        className={`cursor-pointer text-[10px] px-2 py-1 rounded-lg truncate hover:scale-[1.02] transition-all ${
-                          lead.priority === "High"
+                        className={`cursor-pointer text-[10px] px-2 py-1 rounded-lg truncate hover:scale-[1.02] transition-all ${lead.priority === "High"
                             ? "bg-red-50 text-red-600"
                             : lead.priority === "Medium"
-                            ? "bg-yellow-50 text-yellow-700"
-                            : "bg-gray-100 text-gray-600"
-                        }`}
+                              ? "bg-yellow-50 text-yellow-700"
+                              : "bg-gray-100 text-gray-600"
+                          }`}
                       >
                         {lead.name}
                       </div>
@@ -819,7 +812,14 @@ export default function App() {
   async function fetchLeads() {
     setLoading(true);
     const { data, error } = await supabase.from("leads").select("*");
-    if (!error) setLeads(data);
+
+    console.log("FETCH RESULT:", data, error);
+
+    if (error) {
+      console.error("FETCH ERROR:", error);
+    } else {
+      setLeads(data || []);
+    }
     setLoading(false);
   }
 
@@ -831,6 +831,7 @@ export default function App() {
     }
 
     setLoading(true);
+    console.log("FORM STATE:", form);
 
     if (editingId) {
       await supabase.from("leads").update({
@@ -845,18 +846,39 @@ export default function App() {
       }).eq("id", editingId);
       setToast("Lead updated");
     } else {
-      await supabase.from("leads").insert([{
+      const payload = {
         name: form.name,
         phone: form.phone,
         status: form.status,
-        notes: form.notes,
-        follow_up_date: form.follow_up_date || null,
+        notes: form.notes || null,
         services: form.services || null,
+        follow_up_date: form.follow_up_date
+          ? new Date(form.follow_up_date).toISOString().split("T")[0]
+          : null,
         priority: form.priority,
         next_action: form.next_action || null,
-      }]);
+      };
+
+      const { data, error } = await supabase
+        .from("leads")
+        .insert([payload], { returning: "representation" });
+
+      console.log("INSERT PAYLOAD:", payload);
+      console.log("INSERT RESPONSE:", data, error);
+
+      if (error) {
+        console.error("SUPABASE INSERT ERROR:", error);
+        setToast("Insert failed: " + error.message);
+        setLoading(false);
+        return;
+      }
+
+      if (!data) {
+        console.warn("No data returned after insert");
+      }
 
       setToast("Lead added");
+      console.log("Refetching leads...");
     }
 
     setForm(EMPTY_FORM);
@@ -934,7 +956,7 @@ export default function App() {
   }
 
   const todayStr = new Date().toISOString().split("T")[0];
-  const todayLeads   = leads.filter(l => l.follow_up_date === todayStr);
+  const todayLeads = leads.filter(l => l.follow_up_date === todayStr);
   const overdueLeads = leads.filter(l => l.follow_up_date && l.follow_up_date < todayStr);
 
   const totalLeads = leads.length;
@@ -997,12 +1019,12 @@ export default function App() {
       return (priorityOrder[a.priority] ?? 1) - (priorityOrder[b.priority] ?? 1);
     });
 
-    const PAGE_TITLES = {
-      dashboard: "Dashboard",
-      leads: "Leads",
-      followups: "Follow-ups",
-      calendar: "Calendar",
-    };
+  const PAGE_TITLES = {
+    dashboard: "Dashboard",
+    leads: "Leads",
+    followups: "Follow-ups",
+    calendar: "Calendar",
+  };
   const stats = [
     {
       key: "All",
@@ -1055,31 +1077,31 @@ export default function App() {
       <Sidebar activeNav={activeNav} setActiveNav={setActiveNav} />
 
       <main className="flex-1 overflow-y-auto">
-      {overdueLeads.length > 0 && (
+        {overdueLeads.length > 0 && (
 
-<div className="bg-red-50 border-b border-red-100 px-6 py-3 flex items-center justify-between">
+          <div className="bg-red-50 border-b border-red-100 px-6 py-3 flex items-center justify-between">
 
-  <p className="text-sm font-semibold text-red-600">
+            <p className="text-sm font-semibold text-red-600">
 
-    {overdueLeads.length} overdue follow-ups — act now
+              {overdueLeads.length} overdue follow-ups — act now
 
-  </p>
+            </p>
 
-  <button
+            <button
 
-    onClick={() => setActiveNav("followups")}
+              onClick={() => setActiveNav("followups")}
 
-    className="text-xs font-medium text-red-600 underline"
+              className="text-xs font-medium text-red-600 underline"
 
-  >
+            >
 
-    View
+              View
 
-  </button>
+            </button>
 
-</div>
+          </div>
 
-)}
+        )}
         {loading && (
           <div className="fixed top-4 right-4 bg-gray-900 text-white text-xs px-3 py-2 rounded-lg shadow">
             Loading...
@@ -1151,10 +1173,9 @@ export default function App() {
                     key={f}
                     onClick={() => setActiveFilter(f)}
                     className={`px-3 py-1.5 text-xs rounded-lg font-medium transition-all duration-150
-                      ${
-                        activeFilter === f
-                          ? "bg-emerald-600 text-white shadow"
-                          : "bg-white border border-gray-200 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
+                      ${activeFilter === f
+                        ? "bg-emerald-600 text-white shadow"
+                        : "bg-white border border-gray-200 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
                       }`}
                   >
                     {f}
